@@ -33,11 +33,15 @@ header{
     float: right;
     display: flex;
     align-items: center;
-    /* background-color: blue; */
+    justify-content: flex-end;
+    background-color: blue;
 }
+
 .menu-item {
     display: inline-block;
     border: 1px solid black;
+    margin-right: 18px;
+    text-transform: uppercase;
 }
 .menu-item a {
     text-decoration: none;
