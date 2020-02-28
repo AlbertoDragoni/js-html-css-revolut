@@ -20,11 +20,26 @@ header{
     height: 100%;
     width: 20%;
     float: left;
-    background-color: red;
+    /* background-color: red; */
+}
+.header-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 .header-right {
     height: 100%;
     width: 60%;
     float: right;
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+.menu-item {
+    display: inline-block;
+    border: 1px solid black;
+}
+.menu-item a {
+    text-decoration: none;
+    color: black;
 }
